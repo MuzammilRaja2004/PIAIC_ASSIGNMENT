@@ -7,9 +7,9 @@
  * Then print the name after striping the white spaces
  */
 // command to run this task ** tsc task_06.ts && node task_06.js **
-let person_name: string = "\t   Shehzad Munir\n";
+let person: string = "\t   Muzammil Raja\n";
 // Name With whitespace:
-console.log("Name Withe whitespace: " + person_name);
+console.log("Name Withe whitespace: " + person);
 
 // Name Without whitespace:
-console.log("Name Withe whitespace: " + person_name.trim());
+console.log("Name Withe whitespace: " + person.trim());
